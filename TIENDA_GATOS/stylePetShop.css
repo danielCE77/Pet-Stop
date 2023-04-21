@@ -1,0 +1,199 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+
+.menu{
+    /* cosa que quiero hacer con javascript */
+    /* position: sticky;
+    top: calc(100px + 1rem); */
+   /*  ------------------------------- */
+    margin: 0;
+    width: 100%;
+    background-color: burlywood;
+    /* margin-left: 0;
+    margin-right: auto; */
+    padding: 1rem 1rem;
+    /* max-width: 1000px; */
+    font-family: sans-serif;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+body{
+    overflow: auto;
+}
+
+#Criaturitas ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+#Criaturitas img{
+    width: 300px;
+    height: 250px;
+
+}
+
+ul, li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color:rgb(243, 172, 122);
+  }
+  
+  h1 {
+    /* margin-left: 24rem; */
+    font-size: 3rem;
+  }
+  
+  .head {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */ /* opcional: para alinear verticalmente */
+  }
+
+a{
+    text-decoration:dashed;
+    color: black;
+}
+
+#Criaturitas2 ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+#Criaturitas2 img{
+    width: 300px;
+    height: 250px;
+}
+
+.producto ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.producto img{
+    width: 300px;
+    height: 250px;
+    
+}
+
+ul, li{
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+footer {
+    width: 95%;
+    background-color: gray;
+    padding: 3.5rem;
+    color: white;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: 0;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+#headOptions a:hover{
+    color: cornflowerblue;
+}
+
+.container .form{
+    width:1200px;
+    height:300px;
+    border-radius:8px;
+    box-shadow: 0 5px 5px rgba(229, 220, 220, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    }
+    .container .form:hover{
+        transform: translateY(-20px);
+        box-shadow: 0 12px 10px rgba(211, 157, 7, 0.959);
+    }
+
+
+    .container .card{
+    width:330px;
+    height:430px;
+    border-radius:8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    }
+    
+    .container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 10px rgba(184, 182, 179, 0.959);
+    }
+    .container .card img{
+    width: 300px;
+    height: 250px;
+    }
+/* COMO ARREGLAMOS ESTO?? */
+    .producto ul{
+    width:100%;
+    height:50%;
+    border-radius:8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    }
+
+    .producto:hover{
+        transform: translateY(-15px);
+    box-shadow: 0 12px 10px rgba(184, 182, 179, 0.959);
+    }
+
+    .producto img{
+    width: 50px;
+    height: 50px;
+    }
+    
