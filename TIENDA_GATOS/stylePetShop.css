@@ -32,6 +32,7 @@ h1,h2{
 body{
     background-color: whitesmoke;
     font-family: sans-serif;
+    margin : 0;
 }
 
 body{
@@ -176,7 +177,7 @@ footer a:hover {
     height: 250px;
     }
 /* COMO ARREGLAMOS ESTO?? */
-    .producto ul{
+   /*  .producto ul{
     width:100%;
     height:50%;
     border-radius:8px;
@@ -186,8 +187,8 @@ footer a:hover {
     text-align: center;
     transition: all 0.25s;
     }
-
-    .producto:hover{
+ */
+    /* .producto:hover{
         transform: translateY(-15px);
     box-shadow: 0 12px 10px rgba(184, 182, 179, 0.959);
     }
@@ -195,5 +196,5 @@ footer a:hover {
     .producto img{
     width: 50px;
     height: 50px;
-    }
+    } */
     
